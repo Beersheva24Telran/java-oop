@@ -7,7 +7,7 @@ public class Canvas implements Shape{
    public Canvas() {
     shapes = new Shape[0];
    }
-   void addShape(Shape shape) {
+   public void addShape(Shape shape) {
     //TODO
    }
     @Override
