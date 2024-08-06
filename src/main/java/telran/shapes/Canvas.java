@@ -31,11 +31,14 @@ public class Canvas implements Shape {
         return res; 
     }
     public int count() {
-        //TODO
-        //returns number of all shapes in a canvas object
-        //example: canvas has one rectangle, one square, one canvas containing two squares 
-        //for this example the method should return 5
-        return -1;
+        int res = 0;
+        for (int i = 0; i < shapes.length; i++) {
+            if (shapes[i] instanceof Canvas canvas) { 
+                res += canvas.count(); 
+            }
+            res++;
+        }
+        return res;
     }
 
 }

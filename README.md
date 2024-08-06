@@ -1,12 +1,6 @@
-# HW 12 Definition
-## testing
-### Class ShapesTest with testing of the following
-Rectangle (perimiter and square methods)<br>
-Square (perimiter and square methods)<br>
-Canvas (perimiter and square methods)<br>
+# HW 13 Solution
+
 ## functionality
-### Write implementations of the following methods
-addShape
-perimiter
-square
+### method count() of Canvas class
+summing all shapes and if a shape is a Canvas object calling the same method count()
 
